@@ -1,4 +1,4 @@
-var ayaah = [
+var arrAyaah = [
     {
         ayaah: 'وَسَیُجَنَّبُهَا ٱلۡأَتۡقَى',
         surah: 'Al-Lail'
@@ -39,13 +39,12 @@ var ayaah = [
         ayaah: 'وَإِن جَنَحُوا۟ لِلسَّلۡمِ فَٱجۡنَحۡ لَهَا وَتَوَكَّلۡ عَلَى ٱللَّهِۚ إِنَّهُۥ هُوَ ٱلسَّمِیعُ ٱلۡعَلِیمُ',
         surah: 'Al-Anfal'
     }
-]
+];
+
 
 function getAyah() {
-    var num = Math.floor(Math.random() * ayaah.length);
-    // console.log(ayaah[num]);
+    var num = Math.floor(Math.random() * arrAyaah.length);
 
-    document.getElementById("button-ayaah").innerHTML = ayaah[num].ayaah;
-    document.getElementById("button-surah").innerHTML = ayaah[num].surah;
-
+    document.getElementById("button-ayaah").innerHTML = arrAyaah[num].ayaah;
+    document.getElementById("button-surah").innerHTML = arrAyaah[num].surah;
 }
