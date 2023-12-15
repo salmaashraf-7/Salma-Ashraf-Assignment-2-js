@@ -1,0 +1,51 @@
+body {
+
+    background-color: antiquewhite;
+}
+
+.home {
+    text-align: center;
+}
+
+.home-title {
+    margin-top: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+}
+
+.home-paragraph {
+    font-size: 30px;
+}
+
+button {
+    margin-top: 2%;
+    width: 250px;
+    height: 80px;
+    background-color: rgb(55, 31, 1);
+    border: none;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: black;
+    /* transition-duration: 0.5s; */
+}
+
+#button-ayaah {
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 2.5%;
+    margin-bottom: 10px;
+}
+
+#button-surah {
+    margin-top: 5px;
+}
+
+.ayaah-div {
+    background-color: rgba(221, 215, 201, 0.5);
+    width: 70%;
+    height: 120px;
+    margin: auto;
+}
